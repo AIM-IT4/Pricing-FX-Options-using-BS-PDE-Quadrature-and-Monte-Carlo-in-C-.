@@ -69,8 +69,13 @@ Compile and run the code with an optimizing compiler flag to achieve high perfor
 
 **Results**
 Let's summarize the results obtained from pricing a European FX call option using different numerical methods. The option pricing methods include:
+**Pricing Results:**
 
-1. **Black–Scholes Analytical Formula**
-2. **Monte Carlo Simulation (Terminal Value)**
-4. **PDE Pricing (Crank–Nicolson)**
-5. **Quadrature (Simpson's Rule)**
+- **Black-Scholes Price:** 0.0644887  
+- **Monte Carlo Price (1000000 paths):** 0.0644810 [Time: 0.1264261 s]
+
+
+
+- **PDE Price (Crank-Nicolson):** 0.0644779 [Time: 0.0092222 s]
+
+- **Quadrature Price (Simpson's Rule):** 0.0644887
