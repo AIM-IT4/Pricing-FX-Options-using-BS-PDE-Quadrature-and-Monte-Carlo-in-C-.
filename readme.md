@@ -67,4 +67,10 @@ where $f(S)$ is the lognormal density under the risk–neutral measure. The uppe
 
 Compile and run the code with an optimizing compiler flag to achieve high performance. This example is self-contained and demonstrates both the mathematical derivation and the coding implementation for each method. Compile with high optimization (for example, using `-O2` or `-O3`).
 
-Below is the complete code:
+**Results**
+Let's summarize the results obtained from pricing a European FX call option using different numerical methods. The option pricing methods include:
+
+1. **Black–Scholes Analytical Formula**
+2. **Monte Carlo Simulation (Terminal Value)**
+4. **PDE Pricing (Crank–Nicolson)**
+5. **Quadrature (Simpson's Rule)**
